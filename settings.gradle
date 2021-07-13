@@ -1,0 +1,3 @@
+rootProject.name = "FluidLayout Example"
+include ':app'
+include ':fluidlayout'
