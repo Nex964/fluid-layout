@@ -20,6 +20,6 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.Nex964:fluid-layout:Tag'
+	        implementation 'com.github.Nex964:fluid-layout:master-SNAPSHOT'
 }
 ```
