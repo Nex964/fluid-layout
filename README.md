@@ -23,3 +23,6 @@ dependencies {
 	        implementation 'com.github.Nex964:fluid-layout:master-SNAPSHOT'
 }
 ```
+## Screenshots
+
+![Screenshot1](screenshots/ss1.jpg?raw=true "Screenshot1")
