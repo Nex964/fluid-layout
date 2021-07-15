@@ -4,8 +4,12 @@ import android.graphics.RectF
 import android.util.Log
 import android.view.View
 
+/**
+ * Converts passed object to string and logs to debug.
+ * param [message] [Any] type of object which can we converted to string
+ */
 fun log(message: Any){
-    Log.d("nex964", message.toString())
+    if(BuildConfig.DEBUG) Log.d("nex964", message.toString())
 }
 
 fun View.getRectF(): RectF{

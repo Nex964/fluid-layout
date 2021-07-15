@@ -22,24 +22,34 @@ class FluidLayout @JvmOverloads constructor(
     private var objectList = ArrayList<RectF>()
     private var path = Path()
 
+    private var color: Int
+    private var radius: Float
+
     private var size = 500f
     private var xPos = 150f
     private var yPos = 150f
     private var index = 0
 
     init {
-        log("Initiated")
+        log("FluidLayout Initiated")
 
         setWillNotDraw(false)
 
         val corEffect = CornerPathEffect(40f) // 60 Ideal
 
-//        paint.pathEffect = SumPathEffect(corEffect, DiscretePathEffect(20f, 5f))
+        val a = context.obtainStyledAttributes(attrs, R.styleable.FluidLayout)
+        try {
+            color = a.getColor(R.styleable.FluidLayout_color, Color.BLACK)
+            radius = a.getFloat(R.styleable.FluidLayout_lucidness, 60f)
+        } finally {
+            a.recycle()
+        }
+
         paint.pathEffect = corEffect
         paint.strokeJoin = Paint.Join.ROUND    // set the join to round you want
         paint.strokeCap = Paint.Cap.ROUND
         paint.isAntiAlias = true
-        paint.color = Color.BLACK
+        paint.color = color
         path.close()
     }
 

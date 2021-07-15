@@ -9,6 +9,8 @@
 
 
     <com.yolopolo.fluidlayout.FluidLayout
+        app:color="#36C"
+        app:lucidness="40"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
