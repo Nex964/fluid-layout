@@ -25,4 +25,4 @@ dependencies {
 ```
 ## Screenshots
 
-![Screenshot1](screenshots/ss1.jpg?raw=true "Screenshot1" = 250x250)
+![Screenshot1](screenshots/ss1.jpg?raw=true "Screenshot1" width=250)
