@@ -3,7 +3,7 @@
 
 Keeping it simple for now.
 
-It a ViewGroup which can have draggable child <b>Views</b> with fluid effect.
+It's a ViewGroup which can have draggable child <b>Views</b> with fluid effect.
 
 ### How to install
 
@@ -39,5 +39,5 @@ dependencies {
 
 ## How it works
 
-It reads child bounding box and creates a new background for the child view with the defined color. Then a new path is created with all the bounding boxes available for the child views.
-To create a sticky effect a new rectangle path is added between the bounding box's which appears closer to each other which gives a effect of sticky block which don't want to detach from each other.
+It reads child's bounding box and creates a new background for the child view with the defined color. Then a new path is created with all the bounding boxes available for the child views.
+To create a sticky effect a new rectangle path is added between the bounding boxs which appears closer to each other which gives an effect of sticky blocks which don't want to detach from each other.
