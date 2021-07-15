@@ -40,4 +40,4 @@ dependencies {
 ## How it works
 
 It reads child's bounding box and creates a new background for the child view with the defined color. Then a new path is created with all the bounding boxes available for the child views.
-To create a sticky effect a new rectangle path is added between the bounding boxs which appears closer to each other which gives an effect of sticky blocks which don't want to detach from each other.
+To create a sticky effect a new rectangle path is added between the bounding boxes which appears closer to each other which gives an effect of sticky blocks which don't want to detach from each other.
