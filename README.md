@@ -30,6 +30,13 @@ dependencies {
 	<img src="screenshots/ss3.jpg?raw=true" width=250/>
 </p>
 
+## Attributes
+
+| Atrribute Name | Description | Default |
+| --- | --- | --- | 
+| `color` | Background color for the child views | #000 |
+| `lucidness` | Stickyness of the children view | 60 |
+
 ### How it works
 
 It reads child bounding box and creates a new background for the child view with the defined color. Then a new path is created with all the bounding boxes available for the child views.
